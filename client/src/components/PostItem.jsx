@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const PostItem = ({ post }) => {
 	if (!post) {
-		return <div className="text-xl text-center text-white py-10">ДЩВФ</div>
+		return <div className="text-xl text-center text-white py-10"></div>
 	}
 	return (
 		<Link to={`/${post._id}`}>
